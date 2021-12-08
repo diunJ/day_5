@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: #202649;
+    color: white;
+    display: flex;
+    justify-content:space-between ;
+align-content: center;
+flex-wrap: wrap;
+padding: 15px 60px;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.38);
+        
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+        
+    
+
+}
+
+.underline{
+    border-bottom:1px white solid;
+    padding: 0px 5px;
+
+
+
+}
+
+button {
+    
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+   box-shadow: 30px;
+
+
+}
+
+#main_div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#div_1 {
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border-radius: 150px;
+    border: 20px solid rgba(205 , 209, 232, 1);
+    position: relative;
+    background-image: url(diun.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+#div_2 {
+    width: 100px;
+    height:100px;
+    background-color:blue;
+    border: 9px #FFFFFF solid;
+    border-radius: 80px;
+    background-image: url(diun.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: -60px
+   
+    
+    
+}
+    
+#text_box {
+width: 250px;
+height: 250px;
+background-color:  #202649;
+border-radius: 30px;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.33);
+position: relative;
+display: flex;
+
+}
+ 
+#box_span{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+}
+    
+   
+
+
+
